@@ -1,7 +1,5 @@
 FROM h2non/imaginary:latest
 
-WORKDIR /
-
-COPY ./pngs .
+COPY . .
 
 CMD ["-mount", "/pngs"]
