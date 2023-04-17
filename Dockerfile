@@ -1,6 +1,5 @@
 FROM h2non/imaginary:latest
 
-RUN mkdir ./data
-COPY . ./data
+COPY . .
 
-CMD ["-mount", "./data"]
+CMD ["-mount", "."]
