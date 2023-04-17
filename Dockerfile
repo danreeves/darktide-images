@@ -1,5 +1,5 @@
 FROM h2non/imaginary:latest
 
-COPY . .
+COPY ./pngs .
 
-CMD ["-mount", "."]
+CMD ["-mount", "/pngs"]
