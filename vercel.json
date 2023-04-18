@@ -1,7 +1,7 @@
 {
   "name": "Darktide Images",
   "images": {
-    "sizes": [256, 512, 720, 1920],
+    "sizes": [128, 256, 512, 720, 1920],
     "domains": [],
     "minimumCacheTTL": 60,
     "formats": ["image/webp", "image/avif"]
