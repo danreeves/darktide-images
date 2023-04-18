@@ -4,6 +4,6 @@
     "sizes": [256, 512, 720, 1920],
     "domains": [],
     "minimumCacheTTL": 60,
-    "formats": ["image/png", "image/webp", "image/avif"]
+    "formats": ["image/webp", "image/avif"]
   }
 }
